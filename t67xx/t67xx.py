@@ -1,3 +1,10 @@
+
+__author__    = "Francois Scala"
+__copyright__ = "Copyright 2015"
+__license__   = "GPL"
+__version__   = "0.1"
+__status__    = "Development"
+
 ################################################################################
 import pprint, sys, time, binascii, logging
 import serial
@@ -20,7 +27,7 @@ class ts67xxError(Exception):
 ################################################################################
 class t67xx(object):
     '''
-    Basic interface to read data from a Telaire co2 captor.
+    Basic interface to read data from a Telaire co2 sensor.
 
     The status flags are :
 
